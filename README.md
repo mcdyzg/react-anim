@@ -14,10 +14,6 @@ react页面进场动画组件。动画基于animate.css。thx
 
 ## Usage
 
-1. 引入Toast
-2. 在render方法里<Toast ref='test' />,ref属性必须指定
-3. this.refs.test.show()调出Toast，Toast默认3秒自动消失，也可以通过设置参数控制消失时间。
-
 ```
 import React from 'react'
 import ReactDOM from 'react-dom'
