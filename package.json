@@ -1,0 +1,41 @@
+{
+  "name": "react-anim",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "",
+  "dependencies": {
+    "react": "~15.3.2",
+    "react-dom": "~15.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "babel": "~6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-core": "~6.16.0",
+    "babel-loader": "~6.2.5",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "~6.16.0",
+    "babel-preset-react": "~6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "~6.16.3",
+    "clean-webpack-plugin": "^0.1.14",
+    "cross-env": "^3.1.3",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "lodash": "~4.16.4",
+    "node-sass": "^4.0.0",
+    "open-browser-webpack-plugin": "^0.0.3",
+    "postcss-loader": "^1.1.1",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "~1.14.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors",
+    "build": "cross-env NODE_ENV=production babel ./src --out-dir ./lib"
+  },
+  "author": "liwenqiang",
+  "license": "Apache 2"
+}
